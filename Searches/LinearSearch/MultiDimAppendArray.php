@@ -28,6 +28,7 @@ $a=array(
 );
 // PREPARE UNIQUE KEY 'A'
 $b = unique_multidim_array($a, 'A');
+$i = 0;
 // PROCESSING SEARCH AND REDECRALRE VALUE
 while ($i < count($a)) { // LOOPING UNTIL END OF ARRAY
   if($a[$i]["A"] == $a[$j]["A"]){ // IF KEY IS SAME ADD COUNTER
